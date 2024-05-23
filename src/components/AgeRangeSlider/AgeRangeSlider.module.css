@@ -1,0 +1,31 @@
+.age-slider {
+  margin-top: 20px;
+  display: flex;
+  background: lightgray;
+  align-items: center;
+}
+
+.age-range {
+  position: absolute;
+  background-color: purple;
+}
+
+.age-handle {
+  border: 1px solid purple;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  background-color: purple;
+}
+
+.ages-container {
+  margin-top: 10%
+}
+
+.age-text {
+  position: absolute
+}
+
+.max-age-text {
+  padding-left: 5px
+}

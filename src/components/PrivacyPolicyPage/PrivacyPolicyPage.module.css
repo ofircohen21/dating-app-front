@@ -1,0 +1,17 @@
+.container {
+    background-color: #AA3FEC;
+    min-height: 100vh;
+}
+
+.headline {
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.paragraph {
+    font-size: 20px;
+    padding: 0 5%;
+    color: white
+}

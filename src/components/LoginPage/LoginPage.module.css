@@ -1,0 +1,41 @@
+.wrapper {
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    width: 80%;
+    flex-grow: 1;
+}
+
+.logo {
+    flex-grow: 1;
+}
+.input {
+    width: 100%;
+    padding: 20px 0 15px 0;
+    border: 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.login-button {
+    background-color: #AA3FEC;
+    color: white;
+    width: 100%;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.sign-up-link {
+    padding-top: 20px;
+    text-align: center;
+}  

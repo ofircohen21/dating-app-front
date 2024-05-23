@@ -1,0 +1,29 @@
+.chat-container {
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.image-container {
+    width: 15%;
+    padding-left: 10px;
+}
+
+.chat-image {
+    width: 100%;
+}
+
+.chat-content-container {
+    margin-left: 10px;
+    align-self: center;
+}
+
+.last-message-time {
+    align-self: end;
+    padding-right: 10px;
+    flex-grow: 1;
+    text-align: end;
+}
+
+.sub-text {
+    font-size: 0.75em;
+}

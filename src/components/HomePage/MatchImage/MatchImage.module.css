@@ -1,0 +1,46 @@
+.images-container {
+    display: flex;
+
+}
+.image-container {
+    position: relative;
+    z-index: 1;
+}
+.img {
+    margin: 0 auto;
+    border-radius: 5%;
+    display: block;
+}
+
+.details {
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+}
+
+.like-action-animation {
+    transform: rotate(10deg);
+    animation-name: like-animation;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.dislike-action-animation {
+    transform: rotate(-10deg);
+    animation-name: dislike-animation;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes like-animation {
+    from {left: 0}
+    to {left: 100%}
+}
+
+@keyframes dislike-animation {
+    from {right: 0}
+    to {right: 100%}
+}

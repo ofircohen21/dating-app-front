@@ -1,0 +1,51 @@
+.headline {
+    display: flex;
+    align-items: center;
+}
+
+.form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title {
+    margin: 1em auto;
+}
+
+.field {
+    font-size: 1em;
+    width: 100%;
+    padding-top: 10px;
+    height: 4em;
+}
+
+.field-title {
+    font-weight: 500;
+}
+
+.input {
+    width: 100%;
+    border: none;
+    padding: 15px 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.dropdown {
+    width: 80%;
+}
+
+.arrow-button {
+    padding-left: 10px;
+}
+
+.save-button {
+    padding: 0.5em;
+    width: 70%;
+    border-radius: 10% / 50%;
+    background-color: purple;
+    color: white;
+    margin: 1em auto;
+    text-align: center;
+    display: block;
+    border: none;
+}

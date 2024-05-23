@@ -1,0 +1,35 @@
+.homepage-container {
+    overflow: hidden;
+}
+
+.filter-modal-open {
+    opacity: 0.5;
+}
+
+.action-buttons-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.like-action-button {
+    background-color: purple;
+}
+
+.dislike-action-button {
+    background-color: red
+}
+
+.modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent dark background */
+    z-index: 1; /* Place overlay below modal and above page content */
+}
+
+.no-matches-title {
+    text-align: center;
+}

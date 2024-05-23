@@ -1,0 +1,21 @@
+.icon-container {
+    height: 80%;
+    width: 25%;
+    text-align: center;
+}
+
+.nav-link {
+    width: 80%;
+    display: inline-block;
+    height: 100%;
+}
+
+.icon {
+    height: 100%;
+    width: 50%;
+    color: white;
+}
+
+.active-icon {
+    color: purple
+}

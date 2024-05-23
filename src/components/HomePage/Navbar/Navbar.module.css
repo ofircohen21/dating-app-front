@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    margin: 0 auto;
+}
+
+.filter {
+    padding-right: 1em;
+}   

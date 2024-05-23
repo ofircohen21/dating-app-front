@@ -1,0 +1,90 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.user-details-container {
+    width: 90%;
+    flex-grow: 5;
+}
+
+.field-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    align-items: center;
+}
+
+.edit-button {
+    text-align: end;
+    color: blue;
+
+    margin-bottom: 5px
+}
+
+.field-value {
+    color: #8E8E8E;
+}
+
+.actions-container {
+    width: 90%;
+    flex-grow: 1;
+}
+
+.action {
+    padding: 10px;
+    border: 1px solid lightgray;
+    text-align: center;
+}
+
+.delete-account {
+    color: red;
+    margin-top: 10px;
+}
+
+.delete-account-modal { 
+    top: 25%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: lightblue;
+    width: 80%;
+}
+
+.delete-account-message {
+    margin: 0 auto;
+    width: 80%;
+    display: block;
+}
+
+
+.modal-buttons-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.modal-button {
+    background-color: mediumpurple;
+    padding: 10px;
+    color: white;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent dark background */
+    z-index: 1; /* Place overlay below modal and above page content */
+}

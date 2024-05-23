@@ -1,0 +1,20 @@
+.background-image {
+    position: absolute;
+}
+
+.img {
+    width: 90%;
+    height: 70%;
+    margin: 0 auto;
+    border-radius: 5%;
+    display: block;
+}
+
+.details {
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+}

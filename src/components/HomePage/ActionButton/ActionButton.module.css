@@ -1,0 +1,20 @@
+.rounded {
+    border-radius: 50%;
+    border: white;
+}
+
+.icon-wrapper {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    border: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon {
+    color: white;
+    height: 30px;
+    width: 30px;
+}
+

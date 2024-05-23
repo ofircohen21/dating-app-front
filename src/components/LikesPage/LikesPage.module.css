@@ -1,0 +1,26 @@
+.title {
+    text-align: center;
+}
+
+.likes-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.image-container {
+    width: 50%;
+    position: relative;
+}
+
+.like-image {
+    width: 80%;
+    margin: 0 10%;
+}
+
+.liked-match-details {
+    position: absolute;
+    left: 15%;
+    bottom: 0;
+    color: white;
+    display: inline-block;
+}
+
